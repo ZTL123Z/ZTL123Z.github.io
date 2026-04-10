@@ -36,7 +36,10 @@ import { remarkImageGrid } from "./src/plugins/remark-image-grid.js";
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.site_url,
+	// site: siteConfig.site_url,
+	// 设置网站的基础 URL
+	site: 'https://ZTL123Z.github.io',
+	base: '/ZTL123Z.github.io',
 	
 	base: "/",
 	trailingSlash: "always",
