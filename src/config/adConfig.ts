@@ -43,7 +43,7 @@ export const adConfig1: AdConfig = {
 export const adConfig2: AdConfig = {
 	title: "支持博主",
 	content:
-		"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
+		"支持我的创作，帮助我继续提供优质内容！点击了解更多支持方式。",
 	image: {
 		src: "assets/images/cover.avif",
 		alt: "支持博主",
