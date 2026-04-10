@@ -9,13 +9,13 @@ draft: false
 ---
 # 写作模版
 ```markdown
-title:        string	     # 是	文章标题
-published:	  date	         # 是	发布日期
-description:  string	     # 否	文章简短描述，显示在首页文章卡片上
-image:	      ./cover.jpg	 # 否	封面图片路径 可以写 "api" 
-tags:	      string[]	     # 否	文章标签
-category:	  string	     # 否	文章分类
-draft:	      boolean	     # 否	是否为草稿，草稿不会对读者可见
+title: string	     # 是	文章标题
+published: date	         # 是	发布日期
+description: string	     # 否	文章简短描述，显示在首页文章卡片上
+image: ./“api”	 # 否	封面图片路径 可以写 "api" 
+tags: []	     # 否	文章标签
+category: string	     # 否	文章分类
+draft: false	     # 否	是否为草稿，草稿不会对读者可见
 
 updated:	  date	         # 否	更新日期，未设置则默认使用发布日期
 comment:	  boolean	     # 否	是否启用评论，默认 true

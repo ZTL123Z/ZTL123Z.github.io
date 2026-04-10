@@ -19,7 +19,7 @@ draft: false
 title: 我的第一篇博客文章
 published: 2023-09-09
 description: 这是我新 Astro 博客的第一篇文章。
-image: ./cover.jpg
+image: ./“api”
 tags: [前端, 开发]
 category: 前端开发
 draft: false

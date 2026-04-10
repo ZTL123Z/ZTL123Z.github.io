@@ -200,7 +200,7 @@ src/
 title: My First Blog Post
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg  # Или используйте "api" для включения случайных обложек
+image: ./“api”  # Или используйте "api" для включения случайных обложек
 tags: [Foo, Bar]
 category: Front-end
 draft: false

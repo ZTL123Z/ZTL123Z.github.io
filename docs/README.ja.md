@@ -198,7 +198,7 @@ src/
 title: My First Blog Post
 published: 2023-09-09
 description: This is the first post of my new Astro blog.
-image: ./cover.jpg  # または「api」を使用してランダムカバー画像を有効化
+image: ./“api”  # または「api」を使用してランダムカバー画像を有効化
 tags: [Foo, Bar]
 category: Front-end
 draft: false
