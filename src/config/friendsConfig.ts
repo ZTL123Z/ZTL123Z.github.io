@@ -22,6 +22,16 @@ export const friendsPageConfig: FriendsPageConfig = {
 
 // 友链配置
 export const friendsConfig: FriendLink[] = [
+		{
+		title: "珂泽小站",
+		imgurl:
+			"https://cravatar.cn/avatar/a5c2a082ec25c66170c6bcd990ae3784?s=65&r=G&d=",
+		desc: "某全沾工程师的技术笔记和划水日常。",
+		siteurl: "https://www.kezez.com",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
 	{
 		title: "夏夜流萤",
 		imgurl:
@@ -39,15 +49,6 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
 		weight: 9,
-		enabled: true,
-	},
-	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
-		weight: 8,
 		enabled: true,
 	},
 ];

@@ -21,6 +21,14 @@ export const galleryConfig: GalleryConfig = {
 			date: "2026-01-01",
 			tags: ["崩坏星穹铁道", "流萤"],
 		},
+		{
+			id: "三叶子",
+			name: "三叶子的小相册",
+			description: "三叶子的小相册，记录三叶子生活中的美好瞬间。",
+			location: "三叶子的小世界",
+			date: "2026-04-6",
+			tags: ["相册"],
+		},
 	],
 
 	// 瀑布流最小列宽(px)，浏览器根据容器宽度自动计算列数，默认 240
