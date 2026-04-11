@@ -24,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "tencent://message/?uin=2746395413",
+			url: "https://qm.qq.com/q/wb0nEw7W7u",
 			showName: false,
 		},
 		{
