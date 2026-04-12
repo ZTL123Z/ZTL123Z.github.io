@@ -52,7 +52,7 @@ export const zh_CN: Translation = {
 	[Key.guestbookCommentHint]:
 		"您还未在配置文件中启用评论系统，启用后访客才可在此留言",
 	[Key.friends]: "友链",
-	[Key.friendsDescription]: "这里是我的朋友们，欢迎互相访问交流",
+	[Key.friendsDescription]: "这个世界有多大，取决于你认识多少人",
 	[Key.guestbook]: "留言",
 	[Key.guestbookDescription]: "欢迎在这里留下你的足迹，分享你的想法和建议",
 	[Key.untitled]: "无标题",
