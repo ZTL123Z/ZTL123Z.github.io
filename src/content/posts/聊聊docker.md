@@ -1,5 +1,4 @@
 ---
-
 title: 聊聊docker
 published: 2026-04-13          
 description: 系统进程       
@@ -1499,11 +1498,39 @@ services:
           path: requirements.txt
 ```
 
+### 检查并调试你的运行栈
+
+1. 在开始堆栈之前，请确认 Compose 已经解析了你的 .env 变量并正确合并了所有文件：
+
+```bash
+docker compose config
+```
+
+![image-20260414191306595](https://cdn.jsdelivr.net/gh/ZTL123Z/picgo-imgHub@main/20260414191306924.png)
+
+###从所有服务流式日志
+
+```bash
+ # 查看全部
+ docker compose logs -f
+ # 只查看web
+ docker compose logs -f web
+```
+
+### 在运行中的容器中运行命令
+
+```bash
+# 运行命令查看环境变量
+docker compose exec web env | grep REDIS
+REDIS_HOST=redis
+REDIS_PORT=6379
 
 
+# 运行命令查看redis
+docker compose exec web python -c "import redis; r = redis.Redis(host='redis'); print(r.ping())"
+```
 
 
-# Docker Swarm
 
 
 
