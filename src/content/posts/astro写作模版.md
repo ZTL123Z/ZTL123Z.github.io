@@ -1,6 +1,7 @@
 ---
 title: firefly写作模版
 published: 2026-04-07
+updated: 2026-04-23
 description: 这是文章的简短描述
 image: ./images/firefly1.avif
 tags: [Firefly, 布局, 博客, 使用指南]
@@ -29,3 +30,15 @@ slug:	      string	     # 否	自定义 URL 路径
 lang:	      string	     # 否    文章语言代码（如 zh-CN），仅当与站点默认语言不同时设置
 author:	      string	     # 否	文章作者
 ```
+
+```markdown
+title: 聊聊docker
+published: 2026-04-7   
+updated: 2026-04-23
+description: tags       
+image: "api"   
+tags: [tags1,tags2]      
+category: tags
+draft: false       
+```
+
