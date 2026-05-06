@@ -3,7 +3,7 @@ title: firefly写作模版
 published: 2026-04-07
 updated: 2026-04-23
 description: 这是文章的简短描述
-image: ./images/firefly1.avif
+image: "api"   
 tags: [Firefly, 布局, 博客, 使用指南]
 category: 博客指南
 draft: false

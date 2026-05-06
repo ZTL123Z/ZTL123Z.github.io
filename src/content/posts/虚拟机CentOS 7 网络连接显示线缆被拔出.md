@@ -2,7 +2,7 @@
 title: 虚拟机CentOS 7 网络连接显示"线缆被拔出"       
 published: 2026-04-10         
 description: 虚拟机CentOS 7 网络连接显示"线缆被拔出" 
-image: ./“api”   
+image: “api”   
 tags: [linux,centos]       
 category: linux      
 draft: false       
