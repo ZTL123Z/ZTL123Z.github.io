@@ -625,7 +625,7 @@ $ docker run -it --rm tomcat:9.0
 
 ### protainer
 
-```bahs
+```bash
 docker run -d -p 8088:9000 \
 --restart=always -v /var/run/docker.sock:/var/run/docker.sock --privileged=true portainer/portainer
 ```
@@ -1369,7 +1369,7 @@ services:
 
 1. 更新 `compose.yaml`，将 `develop.watch` 块添加到 `Web` 服务中：
 
-```bahs
+```bash
 services:
   web:
     build: .
