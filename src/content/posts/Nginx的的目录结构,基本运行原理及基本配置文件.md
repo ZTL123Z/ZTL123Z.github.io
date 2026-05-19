@@ -5,7 +5,7 @@ updated: 2026-05-07
 description: Nginx的的目录结构,基本运行原理及基本配置文件
 image: "api"   
 tags: [Nginx]
-category: Linux
+category: linux
 draft: false
 ---
 # Nginx目录结构

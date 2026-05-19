@@ -78,4 +78,10 @@ jsDelivr平台将服务重心放在更快速的网路连线，利用CDN技术来
 
  至此，所有搭建工作已完成，可以高效的开发编写文档了。
 
+```yaml
+https://cdn.jsdelivr.net/gh/ZTL123Z/picgo-imgHub@main
+```
+
 ![image-20260409174241093](https://cdn.jsdelivr.net/gh/ZTL123Z/picgo-imgHub@main/20260409174241144.png)
+
+![image-20260513205533066](https://cdn.jsdelivr.net/gh/ZTL123Z/picgo-imgHub@main/imgs/20260513205537222.png)

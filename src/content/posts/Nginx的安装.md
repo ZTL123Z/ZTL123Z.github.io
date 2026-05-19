@@ -5,7 +5,7 @@ updated: 2026-05-07
 description: Nginx的安装
 image: "api"   
 tags: [Nginx]
-category: Linux
+category: linux
 draft: false
 ---
 #Nginx的安装

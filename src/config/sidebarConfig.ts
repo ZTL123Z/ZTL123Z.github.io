@@ -129,6 +129,10 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			position: "sticky",
 			// 是否在文章详情页显示
 			showOnPostPage: false,
+			// 尝试添加以下响应式配置
+			responsive: {
+				collapseThreshold: 2, // 假设目录超过10项时自动收缩
+			},
 		},
 		{
 			// 组件类型：侧边栏目录组件（只在文章详情页显示）

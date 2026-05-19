@@ -5,11 +5,11 @@ updated: 2026-05-09
 description: shell详解
 image: "api"   
 tags: [shell]
-category: Linux
+category: linux
 draft: false
 ---
 
-#shell变量
+# shell变量
 
 ## 变量的定义与赋值
 
